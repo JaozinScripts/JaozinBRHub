@@ -47,17 +47,16 @@ local redzlib = {
       ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
     },
     Blue = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 15, 30)), -- Azul bem escuro
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(10, 15, 30)), -- Azul bem escuro
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 15, 30))  -- Azul bem escuro
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(20, 30, 50), -- Azul intermediário
-    ["Color Stroke"] = Color3.fromRGB(40, 60, 90), -- Azul vibrante (bordas)
-    ["Color Theme"] = Color3.fromRGB(30, 45, 70), -- Azul claro (tema principal)
-    ["Color Text"] = Color3.fromRGB(200, 220, 255), -- Azul claro (texto)
-    ["Color Dark Text"] = Color3.fromRGB(100, 120, 150) -- Azul escuro acinzentado (texto secundário)
-}
+      ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 30, 50)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(19, 97, 61)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(19, 97, 61))
+      }),
+      ["Color Hub 2"] = Color3.fromRGB(20, 93, 60),
+      ["Color Stroke"] = Color3.fromRGB(40, 60, 90),
+      ["Color Theme"] = Color3.fromRGB(50, 229, 148),
+      ["Color Text"] = Color3.fromRGB(200, 220, 255),
+      ["Color Dark Text"] = Color3.fromRGB(100, 120, 150)
     }
     
   },
