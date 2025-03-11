@@ -45,19 +45,19 @@ local redzlib = {
 			["Color Theme"] = Color3.fromRGB(150, 0, 255),
 			["Color Text"] = Color3.fromRGB(240, 240, 240),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+		}, 
+		Blue = {
+			Main = Color3.fromRGB(10, 15, 30), -- Azul bem escuro (fundo principal)
+Second = Color3.fromRGB(20, 30, 50), -- Azul intermediário (segundo plano)
+Stroke = Color3.fromRGB(40, 60, 90), -- Azul escuro mais vibrante (bordas/detalhes)
+Divider = Color3.fromRGB(30, 45, 70), -- Azul levemente mais claro (divisores)
+Text = Color3.fromRGB(200, 220, 255), -- Azul claro (texto)
+TextDark = Color3.fromRGB(100, 120, 150) -- Azul escuro acinzentado (texto secundário)
 		}
-		
-		BlueCyan = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 183, 235)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 183, 235)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 183, 235))
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(0, 170, 226),
-    ["Color Stroke"] = Color3.fromRGB(0, 120, 200),
-    ["Color Theme"] = Color3.fromRGB(0, 220, 255),
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),
-    ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
 }
 	},
 	Info = {
@@ -66,7 +66,7 @@ local redzlib = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "BlueCyan"
+		Theme = "Blue"
 	},
 	Settings = {},
 	Connection = {},
