@@ -1,6 +1,3 @@
---feito por icefrOsty (apague)
--- nome colorido de viado (apague)
-
 game.Players.PlayerAdded:Connect(function(player)
     player.CharacterAdded:Connect(function(character)
         task.wait(1) -- Pequeno delay para garantir que o personagem funcione kkj carregue
